@@ -61,7 +61,7 @@ export default function EditObjectPage() {
               id="name"
               type="text"
               placeholder="Enter product name"
-              className=" p-3 focus:outline-none  text-sm w-full rounded-lg border placeholder:text-black placeholder:text-sm placeholder:text-gray-600"
+              className=" p-3 focus:outline-none  text-sm w-full rounded-lg border  placeholder:text-sm placeholder:text-gray-600"
             />
           </div>
 
@@ -74,7 +74,7 @@ export default function EditObjectPage() {
               id="color"
               type="text"
               placeholder="Enter Color Name"
-              className=" p-3 focus:outline-none text-sm  w-full rounded-lg border placeholder:text-black placeholder:text-sm placeholder:text-gray-600"
+              className=" p-3 focus:outline-none text-sm  w-full rounded-lg border  placeholder:text-sm placeholder:text-gray-600"
             />
           </div>
 
@@ -87,7 +87,7 @@ export default function EditObjectPage() {
               id="capacity"
               type="text"
               placeholder="e.g 256GB"
-              className=" p-3 focus:outline-none text-sm  w-full rounded-lg border placeholder:text-black placeholder:text-sm placeholder:text-gray-600"
+              className=" p-3 focus:outline-none text-sm  w-full rounded-lg border  placeholder:text-sm placeholder:text-gray-600"
             />
           </div>
           {/* add button */}

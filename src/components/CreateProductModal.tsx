@@ -87,7 +87,7 @@ const CreateProductModal: React.FunctionComponent<CreateProductModalProps> = ({
                   id="name"
                   type="text"
                   placeholder="Enter product name"
-                  className=" p-3 focus:outline-none  text-sm w-full rounded-lg border placeholder:text-black placeholder:text-sm placeholder:text-gray-600"
+                  className=" p-3 focus:outline-none  text-sm w-full rounded-lg border  placeholder:text-sm placeholder:text-gray-600"
                 />
                 {errors?.name && (
                   <p className="text-red-600 text-xs py-1">
@@ -105,7 +105,7 @@ const CreateProductModal: React.FunctionComponent<CreateProductModalProps> = ({
                   id="color"
                   type="text"
                   placeholder="Enter Color Name"
-                  className=" p-3 focus:outline-none text-sm  w-full rounded-lg border placeholder:text-black placeholder:text-sm placeholder:text-gray-600"
+                  className=" p-3 focus:outline-none text-sm  w-full rounded-lg border  placeholder:text-sm placeholder:text-gray-600"
                 />
                 {errors?.color && (
                   <p className="text-red-600 text-xs py-1">
@@ -123,7 +123,7 @@ const CreateProductModal: React.FunctionComponent<CreateProductModalProps> = ({
                   id="capacity"
                   type="text"
                   placeholder="e.g 256GB"
-                  className=" p-3 focus:outline-none text-sm  w-full rounded-lg border placeholder:text-black placeholder:text-sm placeholder:text-gray-600"
+                  className=" p-3 focus:outline-none text-sm  w-full rounded-lg border  placeholder:text-sm placeholder:text-gray-600"
                 />
                 {errors?.capacity && (
                   <p className="text-red-600 text-xs py-1">
